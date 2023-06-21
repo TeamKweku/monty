@@ -15,7 +15,7 @@ int monty_operations(unsigned int line_number, char **argv, stack_t **stack)
 		{"pop", pop_stack_element}, {"swap", swap}, {"add", stack_add},
 		{"sub", stack_sub}, {"div", stack_div}, {"mul", stack_multi},
 		{"mod", stack_mod}, {"pchar", print_char}, {"pstr", print_str},
-		{"rotl", rotate1}, {"rotr", rotate2}, {NULL, NULL}};
+		{"rotl", rotl}, {"rotr", rotr}, {NULL, NULL}};
 
 	for (i = 0; operation[i].opcode != NULL; i++)
 	{
