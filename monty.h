@@ -66,4 +66,11 @@ int _is_digit(char *str);
 char *_strcpy(char *dest, const char *src);
 char *_strdup(char *str);
 
+/* tokenizer functions */
+size_t node_length(stack_t *head);
+int is_string_empty(char *str, char *delim);
+char **split_string(char *input_string, char *delimiter);
+char *tokenizer(char **str_ptr, const char *delim);
+
+
 #endif
