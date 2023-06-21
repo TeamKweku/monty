@@ -54,6 +54,7 @@ void print_str(stack_t **stack, unsigned int line_number);
 void print_char(stack_t **stack, unsigned int line_number);
 void rotl(stack_t **stack, unsigned int line_number);
 void rotr(stack_t **stack, unsigned int line_number);
+int enqueue(char *token, stack_t **stack, unsigned int line_number);
 
 /* error handling functions */
 void handle_args_error(void);
