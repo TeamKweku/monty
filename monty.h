@@ -72,5 +72,8 @@ int is_string_empty(char *str, char *delim);
 char **split_string(char *input_string, char *delimiter);
 char *tokenizer(char **str_ptr, const char *delim);
 
+/* monty operatios function */
+int monty_operations(unsigned int line_number, char **argv, stack_t **stack);
+
 
 #endif
