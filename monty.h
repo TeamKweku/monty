@@ -44,12 +44,14 @@ int push_stack_item(char *token, stack_t **stack, unsigned int line_number);
 void pop_stack_element(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
+void swap(stack_t **stack, unsigned int line_number);
 void stack_add(stack_t **stack, unsigned int line_number);
 void stack_sub(stack_t **stack, unsigned int line_number);
 void stack_div(stack_t **stack, unsigned int line_number);
 void stack_multi(stack_t **stack, unsigned int line_number);
 void stack_mod(stack_t **stack, unsigned int line_number);
-
+void print_str(stack_t **stack, unsigned int line_number);
+void print_char(stack_t **stack, unsigned int line_number);
 
 /* error handling functions */
 void handle_args_error(void);
