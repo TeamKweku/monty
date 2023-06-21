@@ -78,5 +78,13 @@ char *tokenizer(char **str_ptr, const char *delim);
 /* monty operatios function */
 int monty_operations(unsigned int line_number, char **argv, stack_t **stack);
 
-
+/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);/* exec function */
+int exec_monty_script(FILE *data);
 #endif
